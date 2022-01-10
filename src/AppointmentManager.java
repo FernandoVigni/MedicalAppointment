@@ -46,7 +46,6 @@ public class AppointmentManager
 
         selectedDoctor = scanner.nextInt();
 
-
         if(selectedDoctor >= 0 && selectedDoctor <= doctorsList.size())
         {
             if(selectedDoctor != 0)
@@ -249,6 +248,8 @@ public class AppointmentManager
         }
     }
 
+
+    //TODO a futuro rehacer este metodo rancio
     private void choseMethod(int option) throws IOException
     {
         // case 1 : normal mode , doctorSelector menu
