@@ -248,7 +248,6 @@ public class AppointmentManager
         }
     }
 
-
     //TODO a futuro rehacer este metodo rancio
     private void choseMethod(int option) throws IOException
     {
@@ -259,21 +258,21 @@ public class AppointmentManager
         {
             case 1:
                 doctorsSelector();
-                break;
+            break;
 
             case 2:
                 getDoctorListOfAppointments(workingWithDoctor);
                 System.out.println("insert hour to Schudle: ");
                 int hour = scanner.nextInt();
                 checkAppointmentPosibleToAdd(hour, 1);
-                break;
+            break;
 
             case 3:
                 getDoctorListOfAppointments(workingWithDoctor);
                 System.out.println("insert hour to erase: ");
                 int hourB = scanner.nextInt();
                 checkAppointmentPosibleToErase(hourB, 1);
-                break;
+            break;
         }
     }
 
@@ -341,7 +340,7 @@ public class AppointmentManager
                 if(dBManager.doctorMasterList.get(j).equals(appointmentMasterList.get(i).doctor))
                 {
                     newMasterAppointmentList.add(appointmentMasterList.get(i));
-                    break;
+                break;
                 }
             }
         }

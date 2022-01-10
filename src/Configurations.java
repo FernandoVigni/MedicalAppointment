@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Configurations extends Option
 {
     Scanner scanner = new Scanner(System.in);
-
     @Override
     public void execute() throws IOException {}
 
@@ -35,6 +34,5 @@ public class Configurations extends Option
             case 0:
                 break;
         }
-
     }
 }

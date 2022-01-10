@@ -103,10 +103,8 @@ public class Turnero
                 break;
           }
       }
-*/
 
-
-   /* public void choseAction() throws IOException
+     public void choseAction() throws IOException
     {
         int option = scanner.nextInt();
         if(option != 0)

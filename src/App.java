@@ -6,6 +6,5 @@ public class App
     {
         Turnero turnero = new Turnero();
         turnero.run();
-        //turnero.enterLoby("jose");
     }
 }

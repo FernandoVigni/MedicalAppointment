@@ -6,7 +6,6 @@ public class LoginManager
 {
     Scanner scanner = new Scanner(System.in);
 
-
     public boolean userCheckLogin(String user, String password) throws FileNotFoundException
     {
         String userDB;
